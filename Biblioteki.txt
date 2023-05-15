@@ -1,0 +1,42 @@
+nltk.download('punkt')
+nltk.download('word_tokenize')
+nltk.download('stopwords')
+nltk.download('averaged_perceptron_tagger_ru')
+
+pip install nltk
+pip install regex
+pip install python-docx
+pip install strings
+pip install pymorphy2
+pip install tqdm
+pip install glob2
+pip install sklearn
+pip install -U scikit-learn
+pip install scikit-learn
+conda install -c conda-forge pyldavis
+
+
+#импорт библиотек
+import glob
+import os
+import pandas as pd
+import numpy as np
+import json
+import docx
+from bs4 import BeautifulSoup as bs
+import requests
+from tqdm.auto import tqdm, trange
+from pymystem3 import Mystem
+from nltk.stem.snowball import SnowballStemmer 
+from nltk.tokenize import word_tokenize
+from nltk.stem import *
+from nltk.corpus import stopwords
+import string
+import re
+import pyLDAvis
+import pyLDAvis.lda_model
+from sklearn.decomposition import LatentDirichletAllocation
+import pymorphy2
+import warnings
+warnings.filterwarnings("ignore")
+from pyLDAvis import gensim
